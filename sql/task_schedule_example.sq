@@ -1,0 +1,8 @@
+-- Example task schedule configuration
+
+CREATE OR REPLACE TASK T_EPCRDBOLOAD
+WAREHOUSE = COT_ETL
+SCHEDULE = 'USING CRON 0 3 * * * America/Phoenix'
+AS
+
+CALL SP_EPCRLOAD();
