@@ -1,0 +1,19 @@
+# Mac
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# Snowflake credentials
+connections.toml
+config.toml
+
+# Logs
+*.log
